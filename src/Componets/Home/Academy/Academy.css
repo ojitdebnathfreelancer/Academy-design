@@ -1,0 +1,17 @@
+.academy {
+    border-bottom: 1px solid #a6a5a5;
+}
+
+.academy-btn button {
+    border: 1px solid #3434ff;
+    font-size: 18px;
+    color: #3434ff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.academy-img-container img {
+    border-radius: 15px;
+    box-shadow: 0 14px 54px 0 rgb(11 11 44 / 22%);
+}

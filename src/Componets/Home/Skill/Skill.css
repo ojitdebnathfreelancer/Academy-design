@@ -1,0 +1,18 @@
+.skill .photo img {
+    border-radius: 25px;
+}
+
+.text .main-text {
+    font-size: 18px;
+}
+
+.skill-btn button {
+    padding: 10px 30px;
+    border: 1px solid #3434ff;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.skill-btn button:first-child {
+    margin-right: 30px;
+}

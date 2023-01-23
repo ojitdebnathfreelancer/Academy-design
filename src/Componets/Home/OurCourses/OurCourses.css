@@ -1,0 +1,28 @@
+.our-courses {
+    border-bottom: 1px solid #a6a5a5;
+    margin-bottom: 20px;
+}
+
+.course-items .course-item {
+    background: #fff;
+    box-shadow: 0 20px 34px 0 rgb(11 11 44 / 4%), 0 4px 8px 0 rgb(11 11 44 / 2%), 0 10px 34px 0 rgb(52 52 255 / 5%);
+    border-radius: 20px;
+}
+
+.course-items .course-item img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.course-items .course-item .text {
+    border-bottom: 1px solid #a6a5a5;
+}
+
+.course-items .course-item {
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.course-items .course-item:hover {
+    transform: scale(0.97);
+}

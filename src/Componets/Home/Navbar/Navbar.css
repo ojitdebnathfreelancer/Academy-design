@@ -1,0 +1,27 @@
+.main-navbar {
+    height: 70px;
+}
+
+.menu-ul li {
+    margin-left: 20px;
+}
+
+.menu-ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.course-btn-container button {
+    background: #0058e4;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.active {
+    color: #0058e4;
+}

@@ -1,0 +1,27 @@
+.company {
+    background: #fafafa;
+    padding: 60px 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.company h3 {
+    font-size: 22px;
+}
+
+@media (min-width:320px) and (max-width:576px) {
+    .company {
+        padding: 50px 0px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+
+    .company .bg1,
+    .bg2,
+    .bg3,
+    .bg4,
+    .bg5 {
+        display: none;
+    }
+
+}
