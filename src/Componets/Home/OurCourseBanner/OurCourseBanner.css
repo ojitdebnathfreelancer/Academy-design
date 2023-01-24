@@ -1,0 +1,14 @@
+.our-course-text .course-btn button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    z-index: 999;
+}
+
+.our-course-text .course-btn button:hover {
+    background: transparent;
+    color: white;
+    z-index: 999;
+}

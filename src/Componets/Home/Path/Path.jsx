@@ -7,12 +7,12 @@ import path3 from '../../../Assets/path2.svg';
 const Path = () => {
     return (
         <div className='max-w-7xl mx-auto my-24 px-5'>
-            <div className='path-header'>
+            <div className='path-header' data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <h1 className='text-center text-5xl font-semibold mb-5'>Choose Your Path</h1>
                 <p className='text-[18px] text-[#69697b] text-center lg:px-[320px]'>Choose how would you like to learn on Academy. You can study full or part-time in our local programs, or remotely with our online courses.</p>
             </div>
             <div className='path-items lg:grid gap-6 grid-cols-3'>
-                <div className='path-item'>
+                <div className='path-item' data-aos="fade-right" data-aos-duration="800">
                     <div className='flex justify-center'>
                         <img src={path1} alt="" />
                     </div>
@@ -22,7 +22,7 @@ const Path = () => {
                         <button className='lg:w-[150px] w-full hover:bg-[#3434ff] hover:text-[#fff] duration-500'>learn more</button>
                     </div>
                 </div>
-                <div className='path-item'>
+                <div className='path-item' data-aos="fade-right" data-aos-duration="900">
                     <div className='flex justify-center'>
                         <img src={path2} alt="" />
                     </div>
@@ -32,7 +32,7 @@ const Path = () => {
                         <button className='lg:w-[150px] w-full hover:bg-[#3434ff] hover:text-[#fff] duration-500'>learn more</button>
                     </div>
                 </div>
-                <div className='path-item'>
+                <div className='path-item' data-aos="fade-right" data-aos-duration="1000">
                     <div className='flex justify-center'>
                         <img src={path3} alt="" />
                     </div>

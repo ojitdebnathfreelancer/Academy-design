@@ -11,16 +11,16 @@ const OurCourses = () => {
     return (
         <div className='max-w-7xl mx-auto py-24 px-5 our-courses'>
             <div className='course-header lg:flex items-center justify-between'>
-                <div>
+                <div data-aos="zoom-in-up" data-aos-duration="1000">
                     <h1 className='text-4xl font-bold lg:text-start text-center'>Our Courses</h1>
                     <p className='text-[18px] lg:pr-[625px] lg:text-start text-center lg:my-0 my-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat feugiat congue viverra facilisis.</p>
                 </div>
-                <div className='academy-btn mt-5'>
+                <div className='academy-btn mt-5' data-aos="zoom-in-up" data-aos-duration="1000">
                     <button className='lg:w-[200px] w-full hover:bg-[#3434ff] hover:text-[#fff] duration-500'>all courses</button>
                 </div>
             </div>
             <div className='course-items lg:grid gap-6 grid-cols-3 mt-10'>
-                <div className='course-item lg:mt-0 mt-5'>
+                <div className='course-item lg:mt-0 mt-5' data-aos="zoom-in-down" data-aos-duration="1000">
                     <img src={course1} alt="" />
                     <div className='px-4'>
                         <div className='py-10 text'>
@@ -38,7 +38,7 @@ const OurCourses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='course-item lg:mt-0 mt-5'>
+                <div className='course-item lg:mt-0 mt-5' data-aos="zoom-in-down" data-aos-duration="1000">
                     <img src={course2} alt="" />
                     <div className='px-4'>
                         <div className='py-10 text'>
@@ -56,7 +56,7 @@ const OurCourses = () => {
                         </div>
                     </div>
                 </div>
-                <div className='course-item lg:mt-0 mt-5'>
+                <div className='course-item lg:mt-0 mt-5' data-aos="zoom-in-down" data-aos-duration="1000">
                     <img src={course3} alt="" />
                     <div className='px-4'>
                         <div className='py-10 text'>
